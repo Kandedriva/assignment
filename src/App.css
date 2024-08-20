@@ -41,3 +41,21 @@
     width: 20%;
     height: 20%;
 }
+.navbar{
+  background-image: url("/public/navbarimage.jpg");
+  display: flex;
+  justify-content: center;
+  background-color: orange;
+  padding: 65px;
+}
+.navbar a {
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  display: block;
+}
+.navbar a:hover {
+  background-color: red;
+  color: white;
+}

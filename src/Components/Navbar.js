@@ -7,15 +7,15 @@ function Navbar(){
     return(
         <>
         <div className="navbar">
-            <li>
+            <a>
                 <Link to ="/">About Us</Link>
-            </li>
-            <li>
+            </a>
+            <a>
                 <Link to ="/WildAnimals">Wild Animals</Link>
-            </li>
-            <li>
+            </a>
+            <a>
                 <Link to ="/DomesticAnimals">Domestic Animals </Link>
-            </li>
+            </a>
         </div>
 
         </>
