@@ -31,25 +31,25 @@
       {
         "id": 0,
         "name": "African Hare",
-        "image": "images/logo192.png",
-        "description": "2 Years of experience"
+        "image": "images/AfricanHare.jpg",
+        "description": "The African savanna hare is a mammal species in the family Leporidae, native to Africa. It is listed as least concern on the IUCN Red List."
       },
       {
         "id": 1,
         "name": "Cheetah",
-        "image": "images/logo192.png",
-        "description": "2 Years of experience"
+        "image": "images/Cheetah.webp",
+        "description": "The cheetah is a large cat and the fastest land animal. It has a tawny to creamy white or pale buff fur that is marked with evenly spaced, solid black spots"
       },
       {
         "id": 2,
         "name": "Kangaroo",
-        "image": "images/logo192.png",
+        "image": "images/Kangaroo.webp",
         "description": "Kangaroos are marsupials from the family Macropodidae. In common use the term is used to describe the largest species from this family, the red kangaroo, as well as the antilopine kangaroo, eastern grey kangaroo, and western grey kangaroo."
       },
       {
         "id": 3,
         "name": "Zebra",
-        "image": "images/logo192.png",
+        "image": "images/Zebra.jpg",
         "description": "Zebras are African equines with distinctive black-and-white striped coats. There are three living species: Grévy's zebra, the plains zebra, and the mountain zebra."
       }
 
