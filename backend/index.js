@@ -28,7 +28,7 @@ function readDatabase() {
     }
 }
 
-app.get("/", async(req, res)=>{
+app.get("/employees", async(req, res)=>{
     const db = await readDatabase();
     res.json(db.employees)
 })
