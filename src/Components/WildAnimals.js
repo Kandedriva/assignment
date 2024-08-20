@@ -12,13 +12,19 @@ function WildAnimals(){
     return(
         <>
         {
-            wildbreeds.map(wildbreeds =>(
-                <div key={wildbreeds.id}>
+            wildbreeds.map(wildbreed =>(
+                <div key={wildbreed.id} className="container">
                     <div>
-                        <h3>{wildbreeds.name} </h3>
-                        <img src={wildbreeds.image} />
-                        <p>{wildbreeds.description}</p>
+                        <h2 className="animalsName">{wildbreed.name} </h2>
+                        <img src={wildbreed.image} className="AnimalsImages"/>
+                       <div className="comntainer">
+                      
+                      <p>{wildbreed.description} </p>
+              
+                       </div>
                     </div>
+                  
+
                 </div>
             ))
         }

@@ -10,12 +10,22 @@ import Navbar from './Components/Navbar';
 
 
 function App() {
+
+  function displayDetails(descriptions){
+    fetch(`http://localhost:5001/${descriptions}`)
+    .then(response=>response.json())
+    .then(details=>console.log(details))
+    .catch(error=>{
+      console.log(error)
+    })
+
+  }
   return (
     <Router>
     <Navbar/>
     <Routes>
         <Route path="/" element={<AboutUs />} />
-        <Route path="/DomesticAnimals" element={<DomesticAnimals />} />
+        <Route path="/DomesticAnimals" element={<DomesticAnimals displayDetails={displayDetails}/>} />
         <Route path="/WildAnimals" element={<WildAnimals />} />
       </Routes>
     </Router>

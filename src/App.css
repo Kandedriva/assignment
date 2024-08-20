@@ -1,38 +1,43 @@
-.App {
+
+.AnimalsImages{
+  /* border: 2px solid; */
   text-align: center;
+  width: 300px;
+  height: 200px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wildAnimalsContainer{
+  /* border: 2px solid; */
+  display: inline-block;
+  padding: 10px 15px 10px 15px;
+  margin: 5px 70px 5px 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container:hover{
+  border: 2px solid green;
 }
+.description{
+  padding: 10px;
+}
+.details-button{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-left: 35%;
+  padding: 5px 50px 5px 50px;
+  background-color: white;
+  border: 2px solid red;
+  font-size: 20px;
+}
+.details-button:hover{
+  background-color: red;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.animalsName{
+  text-align: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container{
+  margin: 10px;
+  
+    
+    display: inline-block;
+    padding: 25px;
+    width: 20%;
+    height: 20%;
 }
