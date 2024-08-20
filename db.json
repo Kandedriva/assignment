@@ -1,0 +1,17 @@
+{
+    "employees":[
+        {
+            "firstname":"Jhon",
+        "lastname": "kim",
+        "image": "/Users/drissakande/assignment-project/public/logo192.png",
+        "yearsOfExprerience": "2 Years of experience"
+        }
+
+    ],
+    "availablePosition": [
+      {
+        "softwareEngineer": "description",
+        "costumerService":""
+      }
+    ]
+}
