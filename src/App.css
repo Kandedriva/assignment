@@ -1,4 +1,6 @@
-
+body{
+  background-color: antiquewhite;
+}
 .AnimalsImages{
   /* border: 2px solid; */
   text-align: center;
@@ -58,4 +60,16 @@
 .navbar a:hover {
   background-color: red;
   color: white;
+}
+.zoo{
+  font-size: 30px;
+  font-family: fantasy;
+  color: aliceblue;
+  margin-right: 500px;
+}
+.aboutZoo{
+  margin: 5px;
+}
+.zooTitle{
+text-align: center;
 }
