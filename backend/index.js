@@ -14,6 +14,8 @@ app.use(express.json());
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const dbPath = path.join(__dirname, 'db.json');
+// app.use('/images', express.static(path.join(__dirname, 'public/images')));
+
 
 
 function readDatabase() {
@@ -28,11 +30,15 @@ function readDatabase() {
     }
 }
 
-app.get("/employees", async(req, res)=>{
+app.get("/domesticAnimals", async(req, res)=>{
     const db = await readDatabase();
-    res.json(db.employees)
-})
+    res.json(db.domesticAnimals)
+});
 
+app.get("/wildAnimals", async(req, res)=>{
+    const db = await readDatabase();
+    res.json(db.wildAnimals)
+});
 
 
 
