@@ -2,28 +2,28 @@
     "domesticAnimals":[
         { "id": 0,
         "breed": "Alaskan Malamute",
-        "image": "images/logo192.png",
-        "characteristics": "2 Years of experience"
+        "image": "images/Alaskan-Malamute-sled-dog.webp",
+        "characteristics": "As Alaskan Malamutes originate from the Arctics, they are accustomed to thriving in freezing temperatures. These adorable wolf look-a-likes are full of energy and can light up a room with their friendly nature and playful personality. "
         },
         {
           "id": 1,
-          "breed": "English Toy Terrier",
-          "image": "images/logo192.png",
-          "characteristics": "2 Years of experience"
+          "breed": "British Shorthair Cat",
+          "image": "images/British Shorthair Cat.avif",
+          "characteristics": "The British Shorthair is an easygoing feline. She enjoys affection but isn’t needy and dislikes being carried. She’ll follow you from room to room, though, out of curiosity. British Shorthairs aren’t lap cats, but they do enjoy snuggling next to their people on the couch."
 
         },
         {
           "id": 2,
           "breed": "Labrador Retriever Dog",
-          "image": "images/logo192.png",
-          "characteristics": "2 Years of experience"
+          "image": "images/Labrador Retriever Dog.jpg",
+          "characteristics": "Labrador Retrievers consistently rank as one of the most popular dog breeds in many countries, and for good reason. With their gentle temperament, playful spirit, and unwavering loyalty, they make wonderful family pets and working dogs. This article explores the key characteristics, care requirements, and historical background of the Labrador Retriever, offering insights for potential owners and dog enthusiasts alike."
 
         },
         {
           "id": 3,
-          "breed": "Tibetan Terrier",
-          "image": "images/logo192.png",
-          "characteristics": "2 Years of experience"
+          "breed": "American Bobtail Cat",
+          "image": "images/American Bobtail Cat.avif",
+          "characteristics": "The American Bobtail is an athletic breed that looks like a bobtailed wildcat and has many dog-like tendencies."
         }
 
     ],

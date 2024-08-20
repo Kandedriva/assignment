@@ -6,7 +6,7 @@ function Navbar(){
 
     return(
         <>
-        <div>
+        <div className="navbar">
             <li>
                 <Link to ="/">About Us</Link>
             </li>
