@@ -18,7 +18,8 @@ Our primary goal is to provide a safe and enriching environment for our animals 
 
 Wild Haven Zoo is actively involved in global conservation initiatives aimed at protecting endangered species and their habitats. We partner with various organizations to support conservation projects and raise awareness about the importance of preserving our planet's wildlife.
 
-<h3 className="zooTitle">Visit Us
+<h3 className="zooTitle"git push
+>Visit Us
 </h3>
 We invite you to visit Wild Haven Zoo and embark on a journey of discovery. Whether you're here to marvel at the majesty of the African elephants, learn about the delicate ecosystems of the rainforest, or simply enjoy a day out with your family, there's something for everyone at Wild Haven Zoo.
 

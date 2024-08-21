@@ -5,6 +5,7 @@ import DomesticAnimals from './Components/DomesticAnimals';
 import WildAnimals from './Components/WildAnimals';
 import AboutUs from './Components/AboutUs';
 import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
 
 // import DomesticAnimals from './Components/DomesticAnimals';
 
@@ -21,7 +22,8 @@ function App() {
 
   }
   return (
-    <Router>
+    <>
+      <Router>
     <Navbar/>
     <Routes>
         <Route path="/" element={<AboutUs />} />
@@ -29,6 +31,8 @@ function App() {
         <Route path="/WildAnimals" element={<WildAnimals />} />
       </Routes>
     </Router>
+    <Footer/>
+    </>
   );
 }
 

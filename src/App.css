@@ -73,3 +73,10 @@ body{
 .zooTitle{
 text-align: center;
 }
+.footer-bottom{
+  font-size: 20px;
+  background-color: orange;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  padding: 25px;
+}
