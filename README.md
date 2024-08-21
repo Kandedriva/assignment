@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# NAME: PETSITE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Description
+The Petsite is a simple and interactive website where users can learn about domestic and wild animals, helping them choose their future pets. The website showcases information on various animals, including their names, pictures, and descriptions, all presented in an engaging and user-friendly format.
 
-## Available Scripts
+# Live Link
 
-In the project directory, you can run:
+GitHub Repository
 
-### `npm start`
+# Usage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Upon accessing the website, users are greeted with a beautifully designed homepage featuring domestic animals, including their names, images, and brief descriptions. The navigation bar allows users to switch between domestic and wild animals. By clicking on the Wild Animals section, users can explore more exotic creatures.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Additionally, users can learn more about the website by visiting the About Us section through the navigation bar.
 
-### `npm test`
+# Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Front-End: React
 
-### `npm run build`
+React was used to build a dynamic and responsive front-end interface.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Back-End: Node.js, Express.js, and db.json
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Node and Express were utilized to create the server, and a db.json file was used as the database to store animal information.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Contribution and Testing
 
-### `npm run eject`
+If you’d like to contribute to the project or test new features, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Fork the Repository:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Start by forking the repository to your GitHub account.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Create a New Branch:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+In your forked repository, create a new branch for the feature or bug fix you want to work on.
 
-## Learn More
+## Make Changes and Commit:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Implement your changes and commit them with clear and descriptive commit messages.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Push Changes:
 
-### Code Splitting
+Push your updates to your forked repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Submit a Pull Request:
 
-### Analyzing the Bundle Size
+Open a pull request in the main repository for your changes to be reviewed and merged.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for your contributions!
