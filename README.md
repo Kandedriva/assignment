@@ -31,6 +31,11 @@ Node and Express were utilized to create the server, and a db.json file was used
 
 # Contribution and Testing
 
+To start the website:
+Run nmp start to start the react front end.
+Run node or nodemon index.js to start the server on port 5001.
+Run json-server --watch db.json to start the database.
+
 If you’d like to contribute to the project or test new features, follow these steps:
 
 ## Fork the Repository:
