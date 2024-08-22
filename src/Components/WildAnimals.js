@@ -4,7 +4,8 @@ function WildAnimals(){
 
     const [wildbreeds, setWildbreeds] = useState([])
 
-  useEffect(() => {
+// http Get request to get the list of wild animals from the server
+useEffect(() => {
     fetch("http://localhost:5001/wildAnimals")
     .then(response =>response.json())
     .then(wilds=>setWildbreeds(wilds))
@@ -12,6 +13,8 @@ function WildAnimals(){
     return(
         <>
         {
+    //mapping through the wildbreeds to display the wild animals list
+
             wildbreeds.map(wildbreed =>(
                 <div key={wildbreed.id} className="container">
                     <div>
