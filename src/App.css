@@ -2,27 +2,25 @@ body{
   background-color: antiquewhite;
 }
 .AnimalsImages{
-  /* border: 2px solid; */
   text-align: center;
-  width: 300px;
-  height: 200px;
+  width: 80%;
+  height: 70%;
 }
 .wildAnimalsContainer{
-  /* border: 2px solid; */
   display: inline-block;
-  padding: 10px 15px 10px 15px;
-  margin: 5px 70px 5px 10px;
+  padding: 20% 25% 20% 25%;
+  margin: 5% 70% 5% 10%;
 }
 .container:hover{
-  border: 2px solid green;
+  border: 1px solid green;
 }
 .description{
-  padding: 10px;
+  padding: 10%;
 }
 .details-button{
 
   margin-left: 35%;
-  padding: 5px 50px 5px 50px;
+  padding: 5% 50% 5% 50%;
   background-color: white;
   border: 2px solid red;
   font-size: 20px;
@@ -35,11 +33,9 @@ body{
   text-align: center;
 }
 .container{
-  margin: 10px;
-  
-    
+  margin: 1%;
     display: inline-block;
-    padding: 25px;
+    padding: 1%;
     width: 20%;
     height: 20%;
 }
@@ -48,13 +44,13 @@ body{
   display: flex;
   justify-content: center;
   background-color: orange;
-  padding: 65px;
+  padding: 2%;
 }
 .navbar a {
-  font-size: 30px;
+  font-size: 20px;
   color: white;
   text-decoration: none;
-  padding: 8px 16px;
+  padding: 2% 2%;
   display: block;
 }
 .navbar a:hover {
@@ -65,10 +61,10 @@ body{
   font-size: 30px;
   font-family: fantasy;
   color: aliceblue;
-  margin-right: 500px;
+  margin-right: 50%;
 }
 .aboutZoo{
-  margin: 5px;
+  margin:0 10% 2% 10%;
 }
 .zooTitle{
 text-align: center;

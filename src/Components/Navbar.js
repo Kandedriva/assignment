@@ -7,7 +7,7 @@ function Navbar(){
     return(
         <>
         <div className="navbar">
-        <h1 className="zoo">ZOO</h1>
+        <h1 className="zoo">Petsite</h1>
             <a>
                 <Link to ="/">About Us</Link>
             </a>
