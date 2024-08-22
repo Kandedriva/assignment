@@ -15,9 +15,15 @@ Additionally, users can learn more about the website by visiting the About Us se
 
 # Technologies Used
 
-## Front-End: React
+## Front-End:
 
-React was used to build a dynamic and responsive front-end interface.
+### React
+
+React was used to build the front-end interface.
+
+### Styling:
+
+CSS was used for styling and layout to create a responsive and attractive user interface.
 
 ## Back-End: Node.js, Express.js, and db.json
 
