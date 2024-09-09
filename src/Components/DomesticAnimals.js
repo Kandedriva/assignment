@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import DisplayAnimals from "./DisplayAnimals";
 
 
 function DomesticAnimals(){
@@ -19,26 +20,25 @@ function DomesticAnimals(){
     }
 
     return(
+
         <>
         {
-            //mapping through the domesticsAnimals array to display the domestic animals list
-            domesticsAnimals.map(domesticsAnimal =>(
-                <div key={domesticsAnimal.id} className="container">
-                    <div>
-                        <h2 className="animalsName">{domesticsAnimal.breed} </h2>
-                        <img src={domesticsAnimal.image} className="AnimalsImages"/>
-                       <div className="comntainer">
-                      
-                      <p>{domesticsAnimal.characteristics} </p>
-              
-                       </div>
-                    </div>
-                  
+    //mapping through the domesticsAnimals array to display the wild animals list
 
-                </div>
-            ))
+    domesticsAnimals.map(domesticsAnimal =>(
+                <DisplayAnimals 
+                key={domesticsAnimal.id} 
+                breed ={domesticsAnimal.breed} 
+                image={domesticsAnimal.image} 
+                description={domesticsAnimal.description}
+                like={domesticsAnimal.like}
+
+                />
+                )
+            )
         }
-           </>
+
+        </>
     )
 }
 export default DomesticAnimals;

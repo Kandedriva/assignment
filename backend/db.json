@@ -3,54 +3,62 @@
         { "id": 0,
         "breed": "Alaskan Malamute",
         "image": "images/Alaskan-Malamute-sled-dog.webp",
-        "characteristics": "As Alaskan Malamutes originate from the Arctics, they are accustomed to thriving in freezing temperatures. These adorable wolf look-a-likes are full of energy and can light up a room with their friendly nature and playful personality. "
+        "description": "As Alaskan Malamutes originate from the Arctics, they are accustomed to thriving in freezing temperatures. These adorable wolf look-a-likes are full of energy and can light up a room with their friendly nature and playful personality. ",
+        "like": 0
         },
         {
           "id": 1,
           "breed": "British Shorthair Cat",
           "image": "images/British Shorthair Cat.avif",
-          "characteristics": "The British Shorthair is an easygoing feline. She enjoys affection but isn’t needy and dislikes being carried. She’ll follow you from room to room, though, out of curiosity. British Shorthairs aren’t lap cats, but they do enjoy snuggling next to their people on the couch."
+          "description": "The British Shorthair is an easygoing feline. She enjoys affection but isn’t needy and dislikes being carried. She’ll follow you from room to room, though, out of curiosity. British Shorthairs aren’t lap cats, but they do enjoy snuggling next to their people on the couch.",
+          "like": 0
 
         },
         {
           "id": 2,
           "breed": "Labrador Retriever Dog",
           "image": "images/Labrador Retriever Dog.jpg",
-          "characteristics": "Labrador Retrievers consistently rank as one of the most popular dog breeds in many countries, and for good reason. With their gentle temperament, playful spirit, and unwavering loyalty, they make wonderful family pets and working dogs. This article explores the key characteristics, care requirements, and historical background of the Labrador Retriever, offering insights for potential owners and dog enthusiasts alike."
+          "description": "Labrador Retrievers consistently rank as one of the most popular dog breeds in many countries, and for good reason. With their gentle temperament, playful spirit, and unwavering loyalty, they make wonderful family pets and working dogs. This article explores the key characteristics, care requirements, and historical background of the Labrador Retriever, offering insights for potential owners and dog enthusiasts alike.",
+          "like": 0
 
         },
         {
           "id": 3,
           "breed": "American Bobtail Cat",
           "image": "images/American Bobtail Cat.avif",
-          "characteristics": "The American Bobtail is an athletic breed that looks like a bobtailed wildcat and has many dog-like tendencies."
+          "description": "The American Bobtail is an athletic breed that looks like a bobtailed wildcat and has many dog-like tendencies.",
+          "like": 0
         }
 
     ],
     "wildAnimals": [
       {
         "id": 0,
-        "name": "African Hare",
+        "breed": "African Hare",
         "image": "images/AfricanHare.jpg",
-        "description": "The African savanna hare is a mammal species in the family Leporidae, native to Africa. It is listed as least concern on the IUCN Red List."
+        "description": "The African savanna hare is a mammal species in the family Leporidae, native to Africa. It is listed as least concern on the IUCN Red List.",
+        "like": 0
       },
       {
         "id": 1,
-        "name": "Cheetah",
+        "breed": "Cheetah",
         "image": "images/Cheetah.webp",
-        "description": "The cheetah is a large cat and the fastest land animal. It has a tawny to creamy white or pale buff fur that is marked with evenly spaced, solid black spots"
+        "description": "The cheetah is a large cat and the fastest land animal. It has a tawny to creamy white or pale buff fur that is marked with evenly spaced, solid black spots.",
+        "like": 0
       },
       {
         "id": 2,
-        "name": "Kangaroo",
+        "breed": "Kangaroo",
         "image": "images/Kangaroo.webp",
-        "description": "Kangaroos are marsupials from the family Macropodidae. In common use the term is used to describe the largest species from this family, the red kangaroo, as well as the antilopine kangaroo, eastern grey kangaroo, and western grey kangaroo."
+        "description": "Kangaroos are marsupials from the family Macropodidae. In common use the term is used to describe the largest species from this family, the red kangaroo, as well as the antilopine kangaroo, eastern grey kangaroo, and western grey kangaroo.",
+        "like": 0
       },
       {
         "id": 3,
-        "name": "Zebra",
+        "breed": "Zebra",
         "image": "images/Zebra.jpg",
-        "description": "Zebras are African equines with distinctive black-and-white striped coats. There are three living species: Grévy's zebra, the plains zebra, and the mountain zebra."
+        "description": "Zebras are African equines with distinctive black-and-white striped coats. There are three living species: Grévy's zebra, the plains zebra, and the mountain zebra.",
+        "like": 0
       }
 
     ]

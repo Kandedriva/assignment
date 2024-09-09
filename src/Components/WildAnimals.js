@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import DisplayAnimals from "./DisplayAnimals";
 
 function WildAnimals(){
 
@@ -16,13 +17,27 @@ useEffect(() => {
     //mapping through the wildbreeds to display the wild animals list
 
             wildbreeds.map(wildbreed =>(
-                <div key={wildbreed.id} className="container">
+                <DisplayAnimals 
+                key={wildbreed.id} 
+                breed ={wildbreed.breed} 
+                image={wildbreed.image} 
+                description={wildbreed.description}
+                like={wildbreed.like}
+
+                />
+                )
+            )
+        }
+                
+                 {/* key={wildbreed.id} className="container">
                     <div>
                         <h2 className="animalsName">{wildbreed.name} </h2>
                         <img src={wildbreed.image} className="AnimalsImages"/>
                        <div className="comntainer">
                       
                       <p>{wildbreed.description} </p>
+                      <button className="details-button">Like</button>
+                      <button>{wildbreed.like}</button>
               
                        </div>
                     </div>
@@ -30,7 +45,7 @@ useEffect(() => {
 
                 </div>
             ))
-        }
+        } */}
 
         </>
     )
