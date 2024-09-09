@@ -1,11 +1,16 @@
 # NAME: PETSITE
 
-Description
+# Description
+
 The Petsite is a simple and interactive website where users can learn about domestic and wild animals, helping them choose their future pets. The website showcases information on various animals, including their names, pictures, and descriptions, all presented in an engaging and user-friendly format.
 
-# Live Link
+# To start the website:
 
-GitHub Repository
+Run these commands in the console.
+
+- Run nmp start to start the react front end.
+- Run node or nodemon index.js to start the server on port 5001.
+- Run json-server --watch db.json to start the database.
 
 # Usage
 
@@ -30,11 +35,6 @@ CSS was used for styling and layout to create a responsive and attractive user i
 Node and Express were utilized to create the server, and a db.json file was used as the database to store animal information.
 
 # Contribution and Testing
-
-To start the website:
-Run nmp start to start the react front end.
-Run node or nodemon index.js to start the server on port 5001.
-Run json-server --watch db.json to start the database.
 
 If you’d like to contribute to the project or test new features, follow these steps:
 
