@@ -28,24 +28,6 @@ useEffect(() => {
                 )
             )
         }
-                
-                 {/* key={wildbreed.id} className="container">
-                    <div>
-                        <h2 className="animalsName">{wildbreed.name} </h2>
-                        <img src={wildbreed.image} className="AnimalsImages"/>
-                       <div className="comntainer">
-                      
-                      <p>{wildbreed.description} </p>
-                      <button className="details-button">Like</button>
-                      <button>{wildbreed.like}</button>
-              
-                       </div>
-                    </div>
-                  
-
-                </div>
-            ))
-        } */}
 
         </>
     )
