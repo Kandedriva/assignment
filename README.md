@@ -6,7 +6,7 @@ The Petsite is a simple and interactive website where users can learn about dome
 
 # To start the website:
 
-Run these commands in the console.
+Run these commands in the Terminal.
 
 - Run nmp start to start the react front end.
 - Run node or nodemon index.js to start the server on port 5001.
