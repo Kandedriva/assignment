@@ -19,6 +19,7 @@ useEffect(() => {
             wildbreeds.map(wildbreed =>(
                 <DisplayAnimals 
                 key={wildbreed.id} 
+                animalid ={wildbreed.id}
                 breed ={wildbreed.breed} 
                 image={wildbreed.image} 
                 description={wildbreed.description}

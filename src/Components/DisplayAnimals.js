@@ -1,8 +1,24 @@
 import React from "react";
+import { useState } from "react";
 
-function DisplayAnimals({breed, image, description, like}){
+function DisplayAnimals({breed, image, description, like, animalid}){
+
+
+
+   let [liked, setLiked] = useState(like);
     function CountLike(){
-        console.log("I have been liked")
+        fetch(`http://localhost:5001/animalslike/${animalid}`,
+        {
+            method: 'PATCH',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ like: liked += 1})}
+        )
+        .then(response=>response.json())
+        .then(setLiked(liked))
+        
+        
     }
     return(<>
     <div className="container">
@@ -10,8 +26,8 @@ function DisplayAnimals({breed, image, description, like}){
                         <img src={image} className="AnimalsImages"/>
                        <div className="comntainer">
                       <p>{description} </p>
-                      <button onClick={CountLike} className="details-button">Like</button>
-                      <button >{like}</button>
+                      <button onClick={()=>CountLike(liked)} className="details-button">Like</button>
+                      <button className="like-button">{liked} likes</button>
               
                        </div>
                     </div>

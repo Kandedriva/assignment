@@ -28,10 +28,12 @@ function DomesticAnimals(){
     domesticsAnimals.map(domesticsAnimal =>(
                 <DisplayAnimals 
                 key={domesticsAnimal.id} 
+                animalid = {domesticsAnimal.id}
                 breed ={domesticsAnimal.breed} 
                 image={domesticsAnimal.image} 
                 description={domesticsAnimal.description}
                 like={domesticsAnimal.like}
+                // animalsid = {domesticsAnimal.id}
 
                 />
                 )
