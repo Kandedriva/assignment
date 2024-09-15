@@ -30,6 +30,7 @@ function DisplayAnimals({breed, image, description, like, animalid}){
                       <button className="like-button">{liked} likes</button>
               
                        </div>
+                       <button className="moreDeatails-button" onClick={()=>console.log("I'm ready to go.!")}>More details.</button>
                     </div>
 
     </>)

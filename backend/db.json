@@ -5,7 +5,7 @@
       "breed": "Alaskan Malamute",
       "image": "images/Alaskan-Malamute-sled-dog.webp",
       "description": "As Alaskan Malamutes originate from the Arctics, they are accustomed to thriving in freezing temperatures. These adorable wolf look-a-likes are full of energy and can light up a room with their friendly nature and playful personality. ",
-      "like": 2
+      "like": 7
     },
     {
       "id": 1,
@@ -35,7 +35,7 @@
       "breed": "African Hare",
       "image": "images/AfricanHare.jpg",
       "description": "The African savanna hare is a mammal species in the family Leporidae, native to Africa. It is listed as least concern on the IUCN Red List.",
-      "like": 2
+      "like": 7
     },
     {
       "id": 1,
